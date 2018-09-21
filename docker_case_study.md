@@ -1,6 +1,6 @@
 # **Docker Case Study ** - Automate Infra allocation for L&D
 
-### Basic requirements **
+### Basic requirements :
 - Dynamic Allocation of Linux systems for users
 - Each user should have independent Linux System
 - Specific training environment should be created in Container
