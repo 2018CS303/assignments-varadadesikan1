@@ -20,13 +20,12 @@
         Jackson
         ```
     - `createContainers.sh`
-        - If `<Docker Img>` is the image you want to run.
         ```sh
         echo -n "Enter file containing usernames: "
         read file
         while read user
             do 
-                docker create -it --name $user <Docker Img> /bin/bash
+                docker create -it --name $user <Docker Img> /bin/bash #If <Docker img> is the required image
             done < $file
         ```
 2.  Complete `users.txt` with usernames and run `createContainers.sh`. The docker container created, corresponds to each username from `users.txt`.
