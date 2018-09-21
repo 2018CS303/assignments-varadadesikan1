@@ -1,14 +1,14 @@
-# **Docker Case Study** - Automate Infra allocation for L&D
+# **Docker Case Study ** - Automate Infra allocation for L&D
 
-### **Basic requirements : **
--> Dynamic Allocation of Linux systems for users
--> Each user should have independent Linux System
--> Specific training environment should be created in Container
--> User should not allow to access other containers/images
--> User should not allow to access docker command
--> Monitor participants containers
--> Debug/live demo for the participants if they have any doubts/bug in running applications. 
--> Automate container creation and deletion.
+### Basic requirements **
+- Dynamic Allocation of Linux systems for users
+- Each user should have independent Linux System
+- Specific training environment should be created in Container
+- User should not allow to access other containers/images
+- User should not allow to access docker command
+- Monitor participants containers
+- Debug/live demo for the participants if they have any doubts/bug in running applications. 
+- Automate container creation and deletion.
 
 ## Allocating Linux systems To Users
 1.  Create the shell script `createContainers.sh` which will automatically create a docker container for every user using specific docker environment image.
