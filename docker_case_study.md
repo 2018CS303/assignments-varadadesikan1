@@ -20,7 +20,7 @@
         Jackson
         ```
     - `createContainers.sh`
-        If `<Docker Img>` is the image you want to run.
+        - If `<Docker Img>` is the image you want to run.
         ```sh
         echo -n "Enter file containing usernames: "
         read file
